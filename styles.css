@@ -10,13 +10,16 @@ header {
     padding: 10px;
 }
 
-header ul {
-    list-style-type: none;
-    padding: 0;
+#below-bio {
     margin: 7.5px 0 12.5px 0;
 }
 
-header ul li {
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header p, ul li {
     display: inline;
     margin: 0 10px;
 }
@@ -27,7 +30,7 @@ header ul li {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    padding: 20px 20px;
+    padding: 30px 40px;
     margin: 0 10px;
     gap: 15px;
     background-color: #bfd1b2;
@@ -72,12 +75,55 @@ body {
     color: #d6e5d5;
 }
 
-h1, h2, h3 {
+h1, h2, h3, thead {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
-p, li {
+p, li, tbody {
     font-family: Tahoma, sans-serif;
+}
+
+/* LINKS */
+
+a:link {
+    color: #f6fbf4;
+}
+
+a:visited {
+    color: #c8e7bc;
+}
+
+.container a:link {
+    color: #688a65;
+}
+
+.container a:visited {
+    color: #0b3221;
+}
+
+/* TABLE */
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th, td {
+    border: 0.5px solid #928e85;
+    text-align: left;
+    padding: 8px 12px;
+}
+
+table thead tr:nth-child(odd) {
+    background-color: #ddd4c2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #ddd4c2;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #eae3cf;
 }
 
 @media (max-width:800px) {
