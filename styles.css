@@ -19,7 +19,7 @@ header ul {
     padding: 0;
 }
 
-header p, ul li {
+header p, header ul li {
     display: inline;
     margin: 0 10px;
 }
