@@ -5,7 +5,7 @@ header {
     text-align: left;
 }
 
-#bio h1, p {
+#bio h1, #bio p {
     display: inline;
     padding: 10px;
 }
@@ -51,7 +51,7 @@ header p, header ul li {
     width: 90%;
 }
 
-.container-image img, p {
+.container-image img, .container-image p {
     padding: 0;
     margin: 0;
 }
@@ -60,6 +60,12 @@ header p, header ul li {
 
 .container-text {
     flex: 2;
+}
+
+.container-text p {
+    text-indent: 2em;
+    padding: 0;
+    margin: 0;
 }
 
 /* FOOTER */
